@@ -28,7 +28,7 @@ export default function RegisterVideo() {
         initialValues: { titulo: "Frost punk", url: "https://youtube..." }
     });
 
-    const [formVisivel, setFormVisivel] = React.useState(true);
+    const [formVisivel, setFormVisivel] = React.useState(false);
 
     //Falta botão para adicionar
     //Modal
@@ -54,7 +54,7 @@ export default function RegisterVideo() {
                     <form onSubmit={(evento) => {
                         evento.preventDefault();
                         console.log(formCadastro.values);
-                        
+                       
                         setFormVisivel(false);
                         formCadastro.clearForm();
                     }}>
