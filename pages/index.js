@@ -1,21 +1,16 @@
-import React from "react";
+
 import config from "../config.json";
 import styled from "styled-components";
-import { CSSReset } from "../src/components/CSSReset";
 import Menu from "../src/components/Menu";
 import { StyledTimeline } from "../src/components/Timeline";
-
+import React from "react";
 
 function HomePage() {
-    const estilosDaHomePage = {
-        // backgroundColor: "red" 
-    };
-
     const [valorDoFiltro, setValorDoFiltro] = React.useState("");
 
     return (
         <>
-            <CSSReset />
+
             <div style={{
                 display: "flex",
                 flexDirection: "column",
@@ -44,6 +39,7 @@ export default HomePage
 
 
 const StyledHeader = styled.div`
+    background-color: ${({ theme }) => theme.backgroundLevel1};
     img {
         width: 80px;
         height: 80px;
@@ -82,7 +78,7 @@ function Header() {
     )
 }
 
-function Timeline({searchValue, ...propriedades}) {
+function Timeline({ searchValue, ...propriedades }) {
     // console.log("Dentro do componente", propriedades.playlists);
     const playlistNames = Object.keys(propriedades.playlists);
     // Statement
@@ -93,6 +89,7 @@ function Timeline({searchValue, ...propriedades}) {
                 const videos = propriedades.playlists[playlistName];
                 console.log(playlistName);
                 console.log(videos);
+
                 return (
                     <section key={playlistName}>
                         <h2>{playlistName}</h2>
