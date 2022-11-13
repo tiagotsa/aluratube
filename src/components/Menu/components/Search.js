@@ -38,6 +38,7 @@ export default function Search({valorDoFiltro, setValorDoFiltro}) {
   //const [valorDaBusca, setvalorDaBusca] = React.useState("Teste");
   //console.log("Search", valorDaBusca)
 
+  
   const valorDaBusca = valorDoFiltro;
   const setValorDaBusca = setValorDoFiltro;
 
