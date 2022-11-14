@@ -4,9 +4,39 @@ import styled from "styled-components";
 import Menu from "../src/components/Menu";
 import { StyledTimeline } from "../src/components/Timeline";
 import React from "react";
+import { createClient } from "@supabase/supabase-js";
+
+const PROJECT_URL = "https://jeykfizmvwwhkvkoptzf.supabase.co";
+const PUBLIC_KEY = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImpleWtmaXptdnd3aGt2a29wdHpmIiwicm9sZSI6ImFub24iLCJpYXQiOjE2NjgzNzgxMjQsImV4cCI6MTk4Mzk1NDEyNH0.Ee-dx6ONKtolhZQMZypQSnf8Vv1IDDfzA50Ollth6Lk";
+const supabase = createClient(PROJECT_URL, PUBLIC_KEY);
 
 function HomePage() {
     const [valorDoFiltro, setValorDoFiltro] = React.useState("");
+    const [playlists, setPlaylists] = React.useState({});
+
+    React.useEffect(() => {
+        console.log("useEffect");
+
+        supabase.from("aluratube")
+            .select("*")
+            .then((dados) => {
+                console.log(dados.data);
+
+                const novasPlaylists = {...playlists};
+                dados.data.forEach((aluratube) => {
+                    if (!novasPlaylists[aluratube.playlist]) {
+                        novasPlaylists[aluratube.playlist] = [];
+                    }
+                    novasPlaylists[aluratube.playlist].push(aluratube);
+
+                })
+                setPlaylists(novasPlaylists);
+            });
+
+    }, []);
+
+    console.log("Playlists Pronto", playlists);
+
 
     return (
         <>
