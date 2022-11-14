@@ -33,10 +33,10 @@ function getThumbnail(url) {
 
 export default function RegisterVideo() {
     const formCadastro = useForm({
-        initialValues: { titulo: "Frost punk", url: "https://www.youtube.com/watch?v=90NcVNsKGik" }
+        initialValues: { titulo: "", url: "" }
     });
 
-    const [formVisivel, setFormVisivel] = React.useState(true);
+    const [formVisivel, setFormVisivel] = React.useState(false);
 
     
     //Falta botão para adicionar
