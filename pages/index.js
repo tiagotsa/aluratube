@@ -25,7 +25,7 @@ function HomePage() {
                 const novasPlaylists = {...playlists};
                 dados.data.forEach((aluratube) => {
                     if (!novasPlaylists[aluratube.playlist]) {
-                        novasPlaylists[aluratube.config.playlist] = [];
+                        novasPlaylists[aluratube.playlist] = [];
                     }
                     novasPlaylists[aluratube.playlist].push(aluratube);
 
@@ -49,7 +49,7 @@ function HomePage() {
             }}>
                 <Menu valorDoFiltro={valorDoFiltro} setValorDoFiltro={setValorDoFiltro} />
                 <Header />
-                <Timeline searchValue={valorDoFiltro} playlists={playlists}>
+                <Timeline searchValue={valorDoFiltro} playlists={config.playlists}>
                     Conteúdo
                 </Timeline>
             </div>
