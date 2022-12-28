@@ -1,6 +1,5 @@
 import styled from "styled-components";
 
-
 const StyledSearch = styled.div`
   display: flex;
   flex-direction: row;
@@ -34,23 +33,22 @@ const StyledSearch = styled.div`
   }
 `;
 
-export default function Search({valorDoFiltro, setValorDoFiltro}) {
+export default function Search({ valorDoFiltro, setValorDoFiltro }) {
+
   //const [valorDaBusca, setvalorDaBusca] = React.useState("Teste");
   //console.log("Search", valorDaBusca)
-
-  
   const valorDaBusca = valorDoFiltro;
   const setValorDaBusca = setValorDoFiltro;
 
   return (
     <StyledSearch>
       <input type="text" onChange={(e) => setValorDaBusca(e.target.value)} value={valorDaBusca} />
-      
+
       <button>
-         🔍
+        🔍
       </button>
 
     </StyledSearch>
 
   )
-  }
+}

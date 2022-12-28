@@ -4,8 +4,6 @@ import { CSSReset } from "../src/components/CSSReset";
 import ColorModeProvider, { ColorModeContext } from "../src/components/Menu/components/ColorMode";
 import RegisterVideo from "../src/components/Menu/components/RegisterVideo";
 
-
-
 const theme = {
     light: {
         backgroundBase: "#f9f9f9",

@@ -1,4 +1,3 @@
-
 import React from "react";
 import config from "../config.json";
 import styled from "styled-components";
@@ -22,7 +21,7 @@ function HomePage() {
             .then((dados) => {
                 console.log(dados.data);
 
-                const novasPlaylists = {...playlists};
+                const novasPlaylists = { ...playlists };
                 dados.data.forEach((aluratube) => {
                     if (!novasPlaylists[aluratube.playlist]) {
                         novasPlaylists[aluratube.playlist] = [];
@@ -67,7 +66,6 @@ export default HomePage
 //     )
 // }
 
-
 const StyledHeader = styled.div`
     background-color: ${({ theme }) => theme.backgroundLevel1};
     img {
@@ -111,6 +109,7 @@ function Header() {
 function Timeline({ searchValue, ...propriedades }) {
     // console.log("Dentro do componente", propriedades.playlists);
     const playlistNames = Object.keys(propriedades.playlists);
+    
     // Statement
     // Retorno por expressão
     return (
