@@ -9,11 +9,7 @@
                 "url": "https://www.imdb.com/video/vi1471530265/?playlistId=tt13443470&ref_=tt_ov_vi",
                 "thumb": "https://www.joblo.com/wp-content/uploads/2022/09/Wednesday-Netflix-key-art-featured.jpg"
             },
-            {
-                "title": "Alice in Borderland",
-                "url": "hhttps://www.imdb.com/video/vi3573007641/?playlistId=tt10795658&ref_=tt_ov_vi",
-                "thumb": "https://beiranossa.pt/img/drama/E4/alice-in-borderland-jin-jino-guonoarisu-1.jpg"
-            },
+            
             {
                 "title": "1899",
                 "url": "https://www.imdb.com/video/vi2774450713/?playlistId=tt9253284&ref_=tt_ov_vi",
@@ -46,21 +42,7 @@
                 "url": "https://www.imdb.com/video/vi1743438361/?playlistId=tt12593682&ref_=tt_ov_vi",
                 "thumb": "https://br.web.img3.acsta.net/r_1920_1080/pictures/22/06/01/16/14/5228436.jpg"
             },
-            {
-                "title": "Noite Infeliz",
-                "url": "https://www.imdb.com/video/vi967951641/?playlistId=tt12003946&ref_=tt_ov_vi",
-                "thumb": "http://cloud.preshow.com.br/arquivos/filmes/poster/vntintldigitaltfilmes10102022215712.jpg"
-            },
-            {
-                "title": "O Pior Vizinho do Mundo",
-                "url": "https://www.imdb.com/video/vi620086553/?playlistId=tt7405458&ref_=tt_pr_ov_vi",
-                "thumb": "https://unlimited-tech.com/wp-content/uploads/2022/10/a-man-called-otto-trailer-500x280.jpg?v=1666274359"
-            },
-            {
-                "title": "Spirited: Um Conto Natalino",
-                "url": "https://www.imdb.com/video/vi3902391577/?playlistId=tt10999120&ref_=tt_ov_vi",
-                "thumb": "https://cdn.hobbyconsolas.com/sites/navi.axelspringer.es/public/styles/hc_1440x810/public/media/image/2022/11/espiritu-navidad-2881127.jpg?itok=M9IGFCox"
-            },
+           
             {
                 "title": "Adão Negro",
                 "url": "https://www.imdb.com/video/vi3315844377/?playlistId=tt6443346&ref_=tt_ov_vi",
@@ -71,11 +53,7 @@
                 "url": "https://www.imdb.com/video/vi1865663001/?playlistId=tt15255876&ref_=tt_ov_vi",
                 "thumb": "https://www.hollywoodinsider.com/wp-content/uploads/2022/08/The-Hollywood-Insider-Emily-the-Criminal-Review.png"
             },
-            {
-                "title": "Christmas Bloody Christmas",
-                "url": "https://www.imdb.com/video/vi4154246425/?playlistId=tt22042742&ref_=tt_ov_vi",
-                "thumb": "https://topdezfilmes.info/wp-content/uploads/2022/12/christmas_bloody_christmas.jpg"
-            },
+            
             {
                 "title": "Nanny",
                 "url": "https://www.imdb.com/video/vi2137637401/?playlistId=tt10931784&ref_=tt_pr_ov_vi",
@@ -98,26 +76,14 @@
                 "url": "https://www.youtube.com/watch?v=1OmhFEhav-8&list=PLA177te8KCzejCXMA_Jd1sJU9pw-utKJ_",
                 "thumb": "https://i.ytimg.com/vi/1OmhFEhav-8/hqdefault.jpg?sqp=-oaymwEXCOADEI4CSFryq4qpAwkIARUAAIhCGAE=&rs=AOn4CLDXS2EsLQCPEzQPVtsAh4yfUziqfg"
             },
-            {
-                "title": "CONECTANDO POSTGRESQL E SPRING BOOT",
-                "url": "https://www.youtube.com/watch?v=gkuFGN6d7Lg",
-                "thumb": "https://i.ytimg.com/an_webp/gkuFGN6d7Lg/mqdefault_6s.webp?du=3000&sqp=CIDMsJ0G&rs=AOn4CLCtYcmpInhKqYk4786-6Z2Gn134RQ"
-            },
-            {
-                "title": "Tutorial Git e Github 2022 - Introdução prática para iniciantes",
-                "url": "https://www.youtube.com/watch?v=_hZf1teRFNg&t=905s",
-                "thumb": "https://i.ytimg.com/an_webp/_hZf1teRFNg/mqdefault_6s.webp?du=3000&sqp=CMDfsJ0G&rs=AOn4CLCM82gOAbe6rqmMj1Dj4f2tfzEzHg"
-            },
+            
+           
             {
                 "title": "Como Criar um Banco de Dados - MySQL - Simples e Objetivo",
                 "url": "https://www.youtube.com/watch?v=LU6tvt3jifo",
                 "thumb": "https://i.ytimg.com/vi/LU6tvt3jifo/hq720.jpg?sqp=-oaymwEcCOgCEMoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDixLDQ8Y0vM3D8TnxBbf7Q7NQHXA"
-            },
-            {
-                "title": "Curso POO Teoria #01a - playlist completa no canal do youtube",
-                "url": "https://www.youtube.com/watch?v=KlIL63MeyMY&t=16s",
-                "thumb": "https://i.ytimg.com/an_webp/KlIL63MeyMY/mqdefault_6s.webp?du=3000&sqp=CITQsJ0G&rs=AOn4CLA14QAjkMFSgAkU6EyusfZTR6vCFA"
             }
+            
         ]
     }
 }
